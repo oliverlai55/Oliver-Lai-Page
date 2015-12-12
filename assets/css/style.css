@@ -1,4 +1,15 @@
-/* line 1, ../compass/sass/style.scss */
+/* line 2, ../compass/sass/style.scss */
+nav .navbar {
+  background-color: #ccc;
+  -webkit-transition: all 0.4s ease;
+  transition: all 1s ease;
+}
+/* line 8, ../compass/sass/style.scss */
+nav .shrink {
+  min-height: 5px !important;
+}
+
+/* line 15, ../compass/sass/style.scss */
 .parallax-window {
   min-height: 400px;
   height: 95vh;
