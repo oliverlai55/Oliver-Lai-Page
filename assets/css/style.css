@@ -1,17 +1,27 @@
-/* line 2, ../compass/sass/style.scss */
-nav .navbar {
+/* line 7, ../compass/sass/style.scss */
+body nav .navbar {
   background-color: #ccc;
   -webkit-transition: all 0.4s ease;
   transition: all 1s ease;
 }
-/* line 8, ../compass/sass/style.scss */
-nav .shrink {
+/* line 13, ../compass/sass/style.scss */
+body nav .shrink {
   min-height: 5px !important;
 }
-
-/* line 15, ../compass/sass/style.scss */
-.parallax-window {
+/* line 20, ../compass/sass/style.scss */
+body .parallax-window {
   min-height: 400px;
   height: 95vh;
   background: transparent;
+}
+/* line 24, ../compass/sass/style.scss */
+body .parallax-window .jumbotron {
+  background: transparent;
+}
+/* line 27, ../compass/sass/style.scss */
+body .parallax-window .jumbotron .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
