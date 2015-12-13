@@ -17,6 +17,9 @@ $(document).ready(function(){
 	$('.carousel').carousel({
 		interval: 2300
 	})
+	console.log("right before wow");
+	new Wow().init();
+	console.log('wow initiated');
 });
 
 
