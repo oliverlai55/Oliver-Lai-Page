@@ -3,13 +3,11 @@ $(document).ready(function(){
 	console.log("test");
 
 	$(window).scroll(function() {
-		// console.log($(window).scrollTop());
-		console.log("inside window");
+		// // console.log($(window).scrollTop());
+		// console.log("inside window");
 		if ($(document).scrollTop() > 50) {
-			console.log("inside if");
 			$('nav').addClass('shrink');
-		} else {
-			console.log("inside else");
+		} else {   
 			$('nav').removeClass('shrink');
 		}
 	});
@@ -17,11 +15,23 @@ $(document).ready(function(){
 	$('.carousel').carousel({
 		interval: 1000
 	})
-	console.log("right before wow");
-	new Wow().init();
-	console.log('wow initiated');
-});
+	// console.log("right before wow");
+	// new Wow().init();
+	// console.log('wow initiated');
 
+	var waypoints = $('.about').waypoint({
+		handler: function(){
+		console.log("waypoint alert"); 
+		$('.right-side').attr('right-side wow slideInRight col-sm-4 col-sm-offset-1');
+
+		$('.left-side').attr('.left-side wow slideInLeft col-sm-6 col-sm-offset-1');
+		// $('.right-side').animate({left: '0px'}, 1000)
+		},
+		offset: '60%'
+	});
+	wow = new WOW();
+	wow.init();
+});
 
 
 
