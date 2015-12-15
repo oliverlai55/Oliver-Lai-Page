@@ -1,13 +1,43 @@
+html{
+  height:100%;
+  width:100%;
+}
+
 body{
-    .about{
-        img{
-            box-shadow: 12px 0px 0px 12px rgba(255, 255, 255, 0.2), -12px 0px 12px rgba(255,255,255,0.2);
-            border-radius: 50%;
-            vertical-align: middle;
-            margin:20px auto;
-        }
-        
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  .about{
+    img{
+      box-shadow: 12px 0px 0px 12px rgba(255, 255, 255, 0.2), -12px 0px 12px rgba(255,255,255,0.2);
+      border-radius: 50%;
+      vertical-align: middle;
+      margin:20px auto;
     }
+
+  }
+
+
+
+.header{
+    background: url("http://edmchicago.com/wp-content/uploads/2015/06/daft-punk.jpg") no-repeat top center fixed;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 nav{
     .navbar{
@@ -21,7 +51,24 @@ nav{
     }
 }
 
+.jumbotron{
+  background: transparent;
+}
+.message-box{
+  background:rgba(255,255,255,0.4);
+  width: 72%;
+  margin-left: 13%;
 
+
+}
+
+.left-col{
+  font-size: 38px;
+}
+.left-col span{
+  font-weight: 300;
+  font-size: 38px;
+}
 .parallax-window{
     min-height: 400px;
     height: 95vh;

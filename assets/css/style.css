@@ -1,31 +1,82 @@
-/* line 3, ../compass/sass/style.scss */
+/* line 1, ../compass/sass/style.scss */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 6, ../compass/sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/* line 12, ../compass/sass/style.scss */
 body .about img {
   box-shadow: 12px 0px 0px 12px rgba(255, 255, 255, 0.2), -12px 0px 12px rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   vertical-align: middle;
   margin: 20px auto;
 }
-/* line 13, ../compass/sass/style.scss */
+/* line 23, ../compass/sass/style.scss */
+body .header {
+  background: url("http://edmchicago.com/wp-content/uploads/2015/06/daft-punk.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+/* line 35, ../compass/sass/style.scss */
+body .content {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 43, ../compass/sass/style.scss */
 body nav .navbar {
   background-color: #ccc;
   -webkit-transition: all 0.4s ease;
   transition: all 1s ease;
 }
-/* line 19, ../compass/sass/style.scss */
+/* line 49, ../compass/sass/style.scss */
 body nav .shrink {
   min-height: 5px !important;
 }
-/* line 25, ../compass/sass/style.scss */
+/* line 54, ../compass/sass/style.scss */
+body .jumbotron {
+  background: transparent;
+}
+/* line 57, ../compass/sass/style.scss */
+body .message-box {
+  background: rgba(255, 255, 255, 0.4);
+  width: 72%;
+  margin-left: 13%;
+}
+/* line 65, ../compass/sass/style.scss */
+body .left-col {
+  font-size: 38px;
+}
+/* line 68, ../compass/sass/style.scss */
+body .left-col span {
+  font-weight: 300;
+  font-size: 38px;
+}
+/* line 72, ../compass/sass/style.scss */
 body .parallax-window {
   min-height: 400px;
   height: 95vh;
   background: transparent;
 }
-/* line 29, ../compass/sass/style.scss */
+/* line 76, ../compass/sass/style.scss */
 body .parallax-window .jumbotron {
   background: transparent;
 }
-/* line 32, ../compass/sass/style.scss */
+/* line 79, ../compass/sass/style.scss */
 body .parallax-window .jumbotron .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -34,12 +85,12 @@ body .parallax-window .jumbotron .container {
   color: white;
 }
 
-/* line 44, ../compass/sass/style.scss */
+/* line 91, ../compass/sass/style.scss */
 .vertical .carousel-inner {
   height: 100%;
 }
 
-/* line 48, ../compass/sass/style.scss */
+/* line 95, ../compass/sass/style.scss */
 .carousel.vertical .item {
   -webkit-transition: 0.6s ease-in-out top;
   -moz-transition: 0.6s ease-in-out top;
@@ -48,38 +99,38 @@ body .parallax-window .jumbotron .container {
   transition: 0.6s ease-in-out top;
 }
 
-/* line 56, ../compass/sass/style.scss */
+/* line 103, ../compass/sass/style.scss */
 .carousel.vertical .active {
   top: 0;
 }
 
-/* line 60, ../compass/sass/style.scss */
+/* line 107, ../compass/sass/style.scss */
 .carousel.vertical .next {
   top: 400px;
 }
 
-/* line 64, ../compass/sass/style.scss */
+/* line 111, ../compass/sass/style.scss */
 .carousel.vertical .prev {
   top: -400px;
 }
 
-/* line 68, ../compass/sass/style.scss */
+/* line 115, ../compass/sass/style.scss */
 .carousel.vertical .next.left,
 .carousel.vertical .prev.right {
   top: 0;
 }
 
-/* line 73, ../compass/sass/style.scss */
+/* line 120, ../compass/sass/style.scss */
 .carousel.vertical .active.left {
   top: -400px;
 }
 
-/* line 77, ../compass/sass/style.scss */
+/* line 124, ../compass/sass/style.scss */
 .carousel.vertical .active.right {
   top: 400px;
 }
 
-/* line 81, ../compass/sass/style.scss */
+/* line 128, ../compass/sass/style.scss */
 .carousel.vertical .item {
   left: 0;
 }
